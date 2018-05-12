@@ -1,0 +1,9 @@
+{
+  "name": "hsk-list",
+  "version": "0.1.0",
+  "description": "List of all the HSK words",
+  "main": "index.js",
+  "repository": "https://github.com/sotch-pr35mac/hsk-list",
+  "author": "Preston Wang-Stosur-Bassett",
+  "license": "MIT"
+}
