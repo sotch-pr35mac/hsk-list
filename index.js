@@ -5,19 +5,7 @@
  */
 
 const fs = require('fs');
-var hskWordList = {}
-
-function getData() {
-    fs.readFile('data.json', 'utf8', function(err, data) {
-        if(err) {
-            console.log('There was an error processing the data file.');
-        } else {
-            hskWordList = JSON.parse(data);
-        }
-    });
-}
-
-getData();
+var hskWordList = require('./data.json');
 
 var getHsk = function(word) {
     if(hskWordList[word] == undefined || hskWordList[word] == null) {
@@ -28,4 +16,4 @@ var getHsk = function(word) {
     }
 }
 
-module.exports.getHsk = getHsk;
+module.exports = getHsk;
