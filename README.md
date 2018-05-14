@@ -3,6 +3,11 @@
 
 A module to get the hsk level of a given word in __Simplified Chinese__. 
 
+### Installation
+```bash
+npm install https://github.com/sotch-pr35mac/hsk-list/tarball/master
+```
+
 ### Usage
 ```javascript
 var hskList = require('hsk-list');
